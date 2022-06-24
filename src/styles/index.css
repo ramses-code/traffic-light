@@ -1,12 +1,44 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-/* 
+.top {
+    height: 150px;
+    width: 10px;
+    background-color: #27282c;
+}
 
-    You can write your own styles here...
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #27282c;
+    min-height: 260px;
+    width: 110px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
 
-*/
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.glow {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: -2px -1px 15px 16px rgba(234, 230, 186, 0.901);
+    border: none;
+}
+
+.bonus {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
